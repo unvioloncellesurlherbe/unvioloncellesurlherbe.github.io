@@ -1,0 +1,55 @@
+/*Style du site */
+
+/* Polices */
+@font-face {
+  font-family: "font-1";
+  src: url(./assets/polices/static/Antonio-Light.ttf);
+}
+
+/* Paramètres de la page */
+
+body {
+  background: url(./assets/grass-1659054_1920.jpg);
+  height: 273vh;
+}
+
+/********** Bienvenue ***********/
+h1 {
+  letter-spacing: 5px;
+  font-size: 6rem;
+  color: rgb(228, 15, 0);
+  text-shadow: 10px 13px 1.5px rgb(0 0 0 / 68%);
+  text-align: center;
+  font-family: "font-1", serif;
+  margin-top: 200px;
+}
+
+/************** Menu ***********/
+
+ul {
+  display: flex;
+}
+li {
+  margin-top: 5px;
+  background: rgb(134, 185, 252);
+  border-radius: 11px;
+  box-shadow: 0 -5px #444444;
+  padding: 20px 45px;
+  color: #335ead;
+  display: inline-block;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "font-1", sans-serif;
+  transition: 0.3s;
+  width: 86.3px;
+  margin-right: 20px;
+}
+
+li:hover {
+  background: rgb(33, 36, 41);
+}
+
+.positioning {
+  position: absolute;
+  top: 10px;
+}
